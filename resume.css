@@ -1,0 +1,76 @@
+/* setting margin to 0px of all the content */
+body{
+  font-famly:verdana;
+}
+*{
+  margin:0px;
+}
+/* setting background image in the header */
+#header-1{
+  height: 67vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity:0.7; */
+  background-image:url("./img/bh.jpg");
+}
+
+/* nav bar css content */
+#navi a{
+text-decoration:none;
+transition:color 0.3s;
+color:black;
+
+}
+
+#navi li{
+  display:inline-block;
+  margin-right:30px;
+  font-size:2rem;
+  font-weight: 900;
+  padding-top:10px;
+  /* padding-left:0px; */
+}
+
+#navi a:hover{
+  color:green;
+  border-bottom:1px solid green;
+}
+
+/* setting he navbar to center */
+.align-center{
+  text-align: center;
+}
+.name{
+  padding-top:7rem;
+  font-size:2.4rem;
+  letter-spacing:1rem;
+  text-align:center;
+}
+/* .icons ul li img{
+width:2rem;
+} */
+.icons ul{
+  list-style:none;
+  text-align: center;
+  padding-top:2rem;
+
+}
+.icons ul li{
+    padding-right:2rem;
+    display:inline-block;
+}
+.icons ul li a{
+  text-decoration: none;
+  color:black;
+  font-size:2rem;
+}
+.icons ul li a i{
+  border-radius:25%;
+}
+.icons ul li a i:hover{
+
+  box-shadow:0px 0px 4px 2px black;
+}
+.icons ul li a:hover{
+  border-bottom:2px solid black;
+}
