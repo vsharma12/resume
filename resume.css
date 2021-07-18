@@ -124,8 +124,9 @@ section {
 
     /* skills section */
 #skills{
-margin-top:1em;
-height:300px;
+margin-top:4em;
+/* border:1px solid black; */
+height:350px;
 }
 .sec-skills{
   color:#2857a4;
@@ -159,6 +160,7 @@ height:300px;
 .skills-name{
   display:flex;
   flex-wrap:wrap;
+  /* border:1px solid black; */
   /* flex-direction:row; */
   justify-content:space-around;
 }
@@ -186,4 +188,66 @@ height:300px;
 .py{
   width:35%;
   background-color:#73937c;
+}
+
+
+/* edducational section  */
+.head-sec{
+  margin:auto;
+  margin-bottom:4rem;
+  margin-top:25px;
+  /* margin-left:25px; */
+  /* padding-top:1rem; */
+}
+.timeline{
+  display:relative;
+  /* border:2px solid black; */
+  width:75%;
+  margin:auto;
+  /* height:39.5rem; */
+}
+.timeliner{
+  display:relative;
+  width:50%;
+  margin:5px;
+  min-height:200px;
+  /* border:2px solid black; */
+}
+.timeliner-2{
+  margin-left:60%;
+}
+
+/* education section div */
+#education{
+  /* border:1px solid black; */
+  /* height:900px; */
+}
+.ed-icon{
+  color:#2857a4;
+  display:inline-block;
+  width:79%;
+  font-size:2rem;
+  /* border:1px solid black; */
+}
+.ed-heading{
+  display:inline-block;
+  margin-left:15rem;
+  font-size:40px;
+  /* border:1px solid blue; */
+}
+.ed-name{
+  margin-top:0.5rem;
+  color:#eb822d;
+  margin-left:17rem;
+  font-size:20px;
+}
+.ed-date{
+  /* margin-top:1rem; */
+  margin-left:10rem;
+  font-size:20px;
+}
+.ed-para{
+  margin-top:1em;
+  color:grey;
+  font-size:25px;
 }
