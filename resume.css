@@ -125,8 +125,7 @@ section {
     /* skills section */
 #skills{
 margin-top:4em;
-/* border:1px solid black; */
-height:350px;
+min-height:350px;
 }
 .sec-skills{
   color:#2857a4;
@@ -199,6 +198,9 @@ height:350px;
   /* margin-left:25px; */
   /* padding-top:1rem; */
 }
+#education{
+  height:65rem;
+}
 .timeline{
   display:relative;
   /* border:2px solid black; */
@@ -208,9 +210,9 @@ height:350px;
 }
 .timeliner{
   display:relative;
-  width:50%;
+  width:54%;
   margin:5px;
-  min-height:200px;
+  /* min-height:300px; */
   /* border:2px solid black; */
 }
 .timeliner-2{
@@ -252,21 +254,22 @@ height:350px;
   position:absolute;
   margin-top:4rem;
   margin-left:550px;
-  height:800px;
+  height:700px;
   width:0;
   border:3px dashed #0096fa6b;
 }
 .time-traveler{
   position:sticky;
   top:20%;
-  z-index: 1; 
+  z-index: 1;
 }
 .plane-icon{
-  margin-top:30px;
+  margin-top:25px;
   margin-left:-16px;
   color:#2857a4;
   font-size:30px;
-  z-index:1;
+  /* z-index:1; */
+  /* margin-bottom: px; */
   transform:rotate(90deg)
 }
 #portfolio{
@@ -274,10 +277,10 @@ height:350px;
 }
 .timeliner:nth-child(2n)::after{
   content:'';
-    width:1rem;
+  width:1rem;
   height:1rem;
   border-radius:50%;
-  margin-top:-18.5%;
+  margin-top:-17%;
   margin-left:40%;
   background-color: grey;
   position:absolute;
@@ -292,5 +295,47 @@ height:350px;
   margin-left:-4.6%;
   background-color: grey;
   position:absolute;
+
+}
+
+/* footer thing */
+#foot{
+  border:1px solid black;
+  background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+  min-height:300px;
+  /* width:75%; */
+  color:white;
+}
+.foot-head{
+  margin-top:3rem;
+  font-size:40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* main content of the footer */
+
+.foot-main{
+  border:1px solid white;
+  height:20rem;
+  width:75%;
+  margin:auto;
+  margin-top:1rem;
+}
+.foot-box1{
+border:1px solid white;
+height:100px;
+width:100px;
+display:inline-block;
+}
+.foot-box2{
+  border:1px solid white;
+  height:100px;
+  width:100px;
+  display:inline-block;
+}
+
+/* media queires */
+@media screen {
 
 }
