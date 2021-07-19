@@ -336,6 +336,7 @@ display:inline-block;
 }
 
 /* media queires */
-@media screen {
+@media screen and (max-width:700px){
 
+  
 }
